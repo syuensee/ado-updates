@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "azure-devops": {
+      "command": "npx",
+      "args": ["-y", "@tiberriver256/mcp-server-azure-devops"],
+      "env": {
+        "AZURE_DEVOPS_ORG_URL": "${input:adoOrgUrl}",
+        "AZURE_DEVOPS_AUTH_METHOD": "pat",
+        "AZURE_DEVOPS_PAT": "${input:adoPat}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "id": "adoOrgUrl",
+      "type": "promptString",
+      "description": "Azure DevOps organization URL (e.g. https://dev.azure.com/my-org)"
+    },
+    {
+      "id": "adoPat",
+      "type": "promptString",
+      "description": "Azure DevOps Personal Access Token",
+      "password": true
+    }
+  ]
+}
