@@ -14,8 +14,8 @@ A VS Code workspace that uses GitHub Copilot with an Azure DevOps MCP server to 
 ### Clone and Open
 
 ```bash
-git clone https://github.com/syuensee_microsoft/ado-monthly-report.git
-cd ado-monthly-report
+git clone https://github.com/syuensee/ado-updates.git
+cd ado-updates
 code .
 ```
 
