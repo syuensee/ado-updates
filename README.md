@@ -79,13 +79,23 @@ Give me a summary of the key milestones/highlights, risks/blockers, and next ste
 |------|-------|--------|----------|-------------|------|---------|
 | Chathra (Phone & Messaging) | 45 | 2 | 4 | 20 | 18 | 1 |
 | Teele (Fraud/Protection) | 74 | 43 | 4 | 7 | 17 | 3 |
-| Oliver (CQ&R) | 44 | 26 | 7 | 8 | 3 | 0 |
+| Oliver (CQ&R) | 102 | 47 | 0 | 18 | 31 | 6 |
 | Martin (RTC Analytics) | 160 | 103 | 3 | 17 | 33 | 4 |
 | Aysu (LLM Evals) | 61 | 12 | 2 | 13 | 33 | 1 |
 
 ---
 
 ## Key Milestones & Highlights
+
+### Call Quality & Reliability Analytics (Oliver)
+
+- **Classifier Application for Doppler completed** — Epic [4395686](https://skype.visualstudio.com/SCC/_workitems/edit/4395686) closed, including the ML classifier evaluation against Doppler SilentTest calls ([4113316](https://skype.visualstudio.com/SCC/_workitems/edit/4113316)).
+- **Automated Drillthrough feature closed** — [4366793](https://skype.visualstudio.com/SCC/_workitems/edit/4366793) delivered.
+- **Models Fast Delivery (MLOps)** — DEV Finalizer completed ([4116978](https://skype.visualstudio.com/SCC/_workitems/edit/4116978)); PROD deployment blocked ([4423498](https://skype.visualstudio.com/SCC/_workitems/edit/4423498)). The broader MLOps epic ([4154117](https://skype.visualstudio.com/SCC/_workitems/edit/4154117)) and Model Delivery System features ([4151908](https://skype.visualstudio.com/SCC/_workitems/edit/4151908), [3979222](https://skype.visualstudio.com/SCC/_workitems/edit/3979222)) remain in progress.
+- **Copilot Agent Enhancement** — Excel Data Update, PBI Refresh, and Prediction Debugging completed ([4417951](https://skype.visualstudio.com/SCC/_workitems/edit/4417951)).
+- **Tenant Alerting** — Active work across multiple epics: alert scoring algorithm ([4395656](https://skype.visualstudio.com/SCC/_workitems/edit/4395656)), troubleshooting methods ([4395658](https://skype.visualstudio.com/SCC/_workitems/edit/4395658)), internal alert reporting views ([4395659](https://skype.visualstudio.com/SCC/_workitems/edit/4395659)), precision measurement ([4415018](https://skype.visualstudio.com/SCC/_workitems/edit/4415018)), and Alerts Summary Dashboard build ([4451077](https://skype.visualstudio.com/SCC/_workitems/edit/4451077)).
+- **Model Monitoring improvements** in progress ([4395651](https://skype.visualstudio.com/SCC/_workitems/edit/4395651), [4366780](https://skype.visualstudio.com/SCC/_workitems/edit/4366780)).
+- **CQD Kusto documentation** — Ongoing work on detailed schema description ([3209971](https://skype.visualstudio.com/SCC/_workitems/edit/3209971)) and wiki page ([3511960](https://skype.visualstudio.com/SCC/_workitems/edit/3511960)).
 
 ### RTC Analytics (Martin)
 
@@ -127,8 +137,9 @@ Give me a summary of the key milestones/highlights, risks/blockers, and next ste
 | [4413089](https://skype.visualstudio.com/SCC/_workitems/edit/4413089) — 1CS review to onboard IRSF to Heron | Teele (Fraud) | Blocked on IC3Fraud team (Mihkel Kanarik) for 1CS review approval |
 | [4413090](https://skype.visualstudio.com/SCC/_workitems/edit/4413090) — 1CS review to onboard SCoRS to Heron | Teele (Fraud) | Same dependency as above |
 | [4414929](https://skype.visualstudio.com/SCC/_workitems/edit/4414929) — 1CS review to onboard IRSF to Heron | Teele (Fraud) | Duplicate/related to 4413089 |
-| [4423498](https://skype.visualstudio.com/SCC/_workitems/edit/4423498) — Models Fast Delivery Finalizer (PROD) | Martin (RTC) | Blocked; DEV version closed in Feb but PROD deployment stuck |
-| [4248901](https://skype.visualstudio.com/SCC/_workitems/edit/4248901) — Mapping Web, CQD, SCR metrics | Martin (RTC) | Long-standing blocked item |
+| [4423498](https://skype.visualstudio.com/SCC/_workitems/edit/4423498) — Models Fast Delivery Finalizer (PROD) | Oliver (CQ&R) | Blocked; DEV version closed in Feb but PROD deployment stuck |
+| [4395677](https://skype.visualstudio.com/SCC/_workitems/edit/4395677) — Fix discrepancies between telemetry pipelines for web | Oliver (CQ&R) | Blocked epic |
+| [4248901](https://skype.visualstudio.com/SCC/_workitems/edit/4248901) — Mapping Web, CQD, SCR metrics | Oliver (CQ&R) | Long-standing blocked item |
 | [4452864](https://skype.visualstudio.com/SCC/_workitems/edit/4452864) — Security Review for IC3-AIIM-Fraud | Cross-team | Security review meeting was scheduled for Feb 25 |
 | [4456553](https://skype.visualstudio.com/SCC/_workitems/edit/4456553) — Rewrite IRSF ongoing calls duration logic | Cross-team | Blocked; data delay issues |
 
@@ -136,9 +147,11 @@ Give me a summary of the key milestones/highlights, risks/blockers, and next ste
 
 ## Next Steps (March 2026)
 
-1. **AAF** — Complete P1 monitoring metrics ([4416193](https://skype.visualstudio.com/SCC/_workitems/edit/4416193)), finish TCR dashboard in Neuron Analytics ([4364180](https://skype.visualstudio.com/SCC/_workitems/edit/4364180)), continue BRB metrics experiment ([4158996](https://skype.visualstudio.com/SCC/_workitems/edit/4158996)).
-2. **Fraud** — Deploy XGBoost model on randomly-sampled data ([4452948](https://skype.visualstudio.com/SCC/_workitems/edit/4452948)), build ACS AD model PSTN blocking ([4457860](https://skype.visualstudio.com/SCC/_workitems/edit/4457860)), unblock Heron 1CS reviews, complete the SCoRS automated training pipeline ([4406215](https://skype.visualstudio.com/SCC/_workitems/edit/4406215)).
-3. **Evals** — Expand DSAT triage across Chat, Meeting Prep, and Meeting Recap ([4444627](https://skype.visualstudio.com/SCC/_workitems/edit/4444627), [4444623](https://skype.visualstudio.com/SCC/_workitems/edit/4444623), [4444626](https://skype.visualstudio.com/SCC/_workitems/edit/4444626)), build Collective IQ evalsets ([4446074](https://skype.visualstudio.com/SCC/_workitems/edit/4446074)), extend QUEST to close the DSAT→EVAL→SEVAL loop ([4453165](https://skype.visualstudio.com/SCC/_workitems/edit/4453165)).
-4. **BI** — Deliver IC3 Data Hub v0, progress on AI Interpreter & COGS Council features ([4438573](https://skype.visualstudio.com/SCC/_workitems/edit/4438573), [4438585](https://skype.visualstudio.com/SCC/_workitems/edit/4438585)), unblock UED Metric Requirements.
-5. **Security** — M365 Custom Job Deprecation for ADO AML pipelines due ([4456959](https://skype.visualstudio.com/SCC/_workitems/edit/4456959)), security review initiation for IC3-AIIM-Fraud due March 21 ([4413103](https://skype.visualstudio.com/SCC/_workitems/edit/4413103)), Technical Excellence presentation due March 20 ([4456491](https://skype.visualstudio.com/SCC/_workitems/edit/4456491)).
-6. **Synapse 3.5 migration** — March 31 deadline; adhoc pool created, remaining workloads need to migrate.
+1. **CQ&R** — Unblock Models Fast Delivery PROD Finalizer ([4423498](https://skype.visualstudio.com/SCC/_workitems/edit/4423498)), continue tenant alerting workstream (scoring, troubleshooting, dashboard), advance threshold forecasting ([4395521](https://skype.visualstudio.com/SCC/_workitems/edit/4395521)), and resolve web telemetry discrepancy blocker ([4395677](https://skype.visualstudio.com/SCC/_workitems/edit/4395677)).
+2. **AAF** — Complete P1 monitoring metrics ([4416193](https://skype.visualstudio.com/SCC/_workitems/edit/4416193)), finish TCR dashboard in Neuron Analytics ([4364180](https://skype.visualstudio.com/SCC/_workitems/edit/4364180)), continue BRB metrics experiment ([4158996](https://skype.visualstudio.com/SCC/_workitems/edit/4158996)).
+3. **Fraud** — Deploy XGBoost model on randomly-sampled data ([4452948](https://skype.visualstudio.com/SCC/_workitems/edit/4452948)), build ACS AD model PSTN blocking ([4457860](https://skype.visualstudio.com/SCC/_workitems/edit/4457860)), unblock Heron 1CS reviews, complete the SCoRS automated training pipeline ([4406215](https://skype.visualstudio.com/SCC/_workitems/edit/4406215)).
+4. **Evals** — Expand DSAT triage across Chat, Meeting Prep, and Meeting Recap ([4444627](https://skype.visualstudio.com/SCC/_workitems/edit/4444627), [4444623](https://skype.visualstudio.com/SCC/_workitems/edit/4444623), [4444626](https://skype.visualstudio.com/SCC/_workitems/edit/4444626)), build Collective IQ evalsets ([4446074](https://skype.visualstudio.com/SCC/_workitems/edit/4446074)), extend QUEST to close the DSAT→EVAL→SEVAL loop ([4453165](https://skype.visualstudio.com/SCC/_workitems/edit/4453165)).
+5. **BI** — Deliver IC3 Data Hub v0, progress on AI Interpreter & COGS Council features ([4438573](https://skype.visualstudio.com/SCC/_workitems/edit/4438573), [4438585](https://skype.visualstudio.com/SCC/_workitems/edit/4438585)), unblock UED Metric Requirements.
+6. **Security** — M365 Custom Job Deprecation for ADO AML pipelines due ([4456959](https://skype.visualstudio.com/SCC/_workitems/edit/4456959)), security review initiation for IC3-AIIM-Fraud due March 21 ([4413103](https://skype.visualstudio.com/SCC/_workitems/edit/4413103)), Technical Excellence presentation due March 20 ([4456491](https://skype.visualstudio.com/SCC/_workitems/edit/4456491)).
+7. **Synapse 3.5 migration** — March 31 deadline; adhoc pool created, remaining workloads need to migrate.
+
