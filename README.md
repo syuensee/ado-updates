@@ -3,8 +3,8 @@
 A VS Code workspace that uses GitHub Copilot with an Azure DevOps MCP server to query IC3 Data Science work items, generate status reports, and answer questions about project progress — all through natural language in Copilot Chat. Responses are generated with AI assistance using Azure DevOps data and may contain inaccuracies — always verify critical details against the source work items.
 
 # Resources
-- Uses this [repo]([url](https://github.com/microsoft/azure-devops-mcp?tab=readme-ov-file#-installation--getting-started)) 
-- Followed this [documentation]([url](https://loop.cloud.microsoft/p/eyJ1IjoiaHR0cHM6Ly9taWNyb3NvZnQuc2hhcmVwb2ludC1kZi5jb20vY29udGVudHN0b3JhZ2UvQ1NQXzM0OTQ0YTFjLTQwYTEtNDdiYy05ZTFhLWQyMzY3MjBkNGNjMz9uYXY9Y3owbE1rWmpiMjUwWlc1MGMzUnZjbUZuWlNVeVJrTlRVQ1UxUmpNME9UUTBZVEZqSlRKRU5EQmhNU1V5UkRRM1ltTWxNa1E1WlRGaEpUSkVaREl6TmpjeU1HUTBZMk16Sm1ROVlpVXlNVWhGY1ZWT1MwWkJka1ZsWlVkMFNUSmpaekZOZHpGSWJVbDJObFpEUlZwRGNuSlJiRVZvZW1zemEzWnhhMGhNYkVGdWFEbFVZVFp2Y2xKM2RYaFlRMmNtWmowd01WVk1UREpRUlU5T1FWUmFVVXBHTlZSWlFrWXlSVTFZTTFkV1NsSkhOVTlDSm1NOUpUSkcifQ%3D%3D))
+- Uses this [repo](https://github.com/microsoft/azure-devops-mcp?tab=readme-ov-file#-installation--getting-started) 
+- Followed this [documentation](https://loop.cloud.microsoft/p/eyJ1IjoiaHR0cHM6Ly9taWNyb3NvZnQuc2hhcmVwb2ludC1kZi5jb20vY29udGVudHN0b3JhZ2UvQ1NQXzM0OTQ0YTFjLTQwYTEtNDdiYy05ZTFhLWQyMzY3MjBkNGNjMz9uYXY9Y3owbE1rWmpiMjUwWlc1MGMzUnZjbUZuWlNVeVJrTlRVQ1UxUmpNME9UUTBZVEZqSlRKRU5EQmhNU1V5UkRRM1ltTWxNa1E1WlRGaEpUSkVaREl6TmpjeU1HUTBZMk16Sm1ROVlpVXlNVWhGY1ZWT1MwWkJka1ZsWlVkMFNUSmpaekZOZHpGSWJVbDJObFpEUlZwRGNuSlJiRVZvZW1zemEzWnhhMGhNYkVGdWFEbFVZVFp2Y2xKM2RYaFlRMmNtWmowd01WVk1UREpRUlU5T1FWUmFVVXBHTlZSWlFrWXlSVTFZTTFkV1NsSkhOVTlDSm1NOUpUSkcifQ%3D%3D)
 
 ## Getting Started
 
